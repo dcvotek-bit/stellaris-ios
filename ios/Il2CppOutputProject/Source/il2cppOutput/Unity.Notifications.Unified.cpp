@@ -1,0 +1,1708 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
+struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
+struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
+struct List_1_tC74F654247ABF5958BE119A0484FED155A4FA129;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
+struct AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6;
+struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
+struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617;
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A;
+struct Exception_t;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
+struct NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E;
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327;
+struct iOSNotificationTrigger_tC158EA08A8FCFBF7CF13CAF3A98EF0B1285C4AB1;
+
+IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotificationRepeatInterval_t43A4F46E9D010393D6ECE2EC5D126BC211BDC887_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral3A6FD1F02DCE0DE243EF41D1C454D5FBEA3CDCB5;
+IL2CPP_EXTERN_C String_t* _stringLiteral8174925EDDA428592DBDC5DFBE6B88EAE1AD9E8A;
+IL2CPP_EXTERN_C String_t* _stringLiteralC6EEA3A428E9E20BA81B1255C72CFE9EBB4B13FB;
+IL2CPP_EXTERN_C const RuntimeMethod* NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NotificationCenter_Initialize_m935122C970A079622F8033416F359420E84F7E5C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NotificationDateTimeSchedule_Unity_Notifications_NotificationSchedule_Schedule_m4057AFF3640FACB53EDAE912C9908F949F4F348C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m0DF3B826A745419D26A168689AEB4BE6F8698ECA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_0_0_0_var;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t8E1EB5BBCB85ECC42263863CF5264AAC0F155B5A 
+{
+};
+struct AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6  : public RuntimeObject
+{
+	bool ___m_IsFinished;
+	bool ___m_Granted;
+	String_t* ___m_Error;
+	String_t* ___m_DeviceToken;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
+{
+	bool ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	bool ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	String_t* ___m_name;
+	String_t* ___englishname;
+	String_t* ___nativename;
+	String_t* ___iso3lang;
+	String_t* ___iso2lang;
+	String_t* ___win3lang;
+	String_t* ___territory;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture;
+	bool ___constructed;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData;
+	bool ___m_isInherited;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
+{
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	char* ___m_name;
+	char* ___englishname;
+	char* ___nativename;
+	char* ___iso3lang;
+	char* ___iso2lang;
+	char* ___win3lang;
+	char* ___territory;
+	char** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData;
+	int32_t ___m_isInherited;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
+{
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	Il2CppChar* ___m_name;
+	Il2CppChar* ___englishname;
+	Il2CppChar* ___nativename;
+	Il2CppChar* ___iso3lang;
+	Il2CppChar* ___iso2lang;
+	Il2CppChar* ___win3lang;
+	Il2CppChar* ___territory;
+	Il2CppChar** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData;
+	int32_t ___m_isInherited;
+};
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617  : public RuntimeObject
+{
+};
+struct NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 
+{
+	bool ___hasValue;
+	float ___value;
+};
+typedef Il2CppFullySharedGenericStruct Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339;
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct CalendarTriggerData_t95CDF224E7B6165CE42899A54B3BADAE1B4BBB23 
+{
+	int32_t ___year;
+	int32_t ___month;
+	int32_t ___day;
+	int32_t ___hour;
+	int32_t ___minute;
+	int32_t ___second;
+	int32_t ___weekday;
+	uint8_t ___repeats;
+};
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	uint64_t ____dateData;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct LocationTriggerData_t6C709C3123CDD15B8FA218B532776BAB4B0172FC 
+{
+	double ___latitude;
+	double ___longitude;
+	float ___radius;
+	uint8_t ___notifyOnEntry;
+	uint8_t ___notifyOnExit;
+	uint8_t ___repeats;
+};
+struct NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
+{
+	AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6* ___request;
+};
+struct TimeTriggerData_t110F07D01BDEC0F8D7C1E625A581638C9AEE6823 
+{
+	int32_t ___interval;
+	uint8_t ___repeats;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct AuthorizationOption_tFB5245C44F1DB3C43C9A665E7E8CACC7AAF6B7DF 
+{
+	int32_t ___value__;
+};
+struct DateTimeKind_t3AD6DA06BEF8955A740777163FFB481C19089BBC 
+{
+	int32_t ___value__;
+};
+struct DayOfWeek_t726DBD527FF9B9D2A0352FB80C55EE2EBE56783D 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4 
+{
+	iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* ___notification;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CIdentifierU3Ek__BackingField;
+	bool ___U3CShowInForegroundU3Ek__BackingField;
+};
+struct Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_pinvoke
+{
+	iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* ___notification;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CIdentifierU3Ek__BackingField;
+	int32_t ___U3CShowInForegroundU3Ek__BackingField;
+};
+struct Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_com
+{
+	iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* ___notification;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CIdentifierU3Ek__BackingField;
+	int32_t ___U3CShowInForegroundU3Ek__BackingField;
+};
+struct NotificationPresentation_tD95520FE13D9032DE2AEE808B996F04840ADA795 
+{
+	int32_t ___value__;
+};
+struct NotificationRepeatInterval_t43A4F46E9D010393D6ECE2EC5D126BC211BDC887 
+{
+	int32_t ___value__;
+};
+struct TriggerData_t5B00176E3EB034DB9078E419981580696EB8D39E 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			TimeTriggerData_t110F07D01BDEC0F8D7C1E625A581638C9AEE6823 ___timeInterval;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			TimeTriggerData_t110F07D01BDEC0F8D7C1E625A581638C9AEE6823 ___timeInterval_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			CalendarTriggerData_t95CDF224E7B6165CE42899A54B3BADAE1B4BBB23 ___calendar;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			CalendarTriggerData_t95CDF224E7B6165CE42899A54B3BADAE1B4BBB23 ___calendar_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			LocationTriggerData_t6C709C3123CDD15B8FA218B532776BAB4B0172FC ___location;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			LocationTriggerData_t6C709C3123CDD15B8FA218B532776BAB4B0172FC ___location_forAlignmentOnly;
+		};
+	};
+};
+struct Nullable_1_tCAA9C81C7497FAEBCEFBDE004DEE9250D0BE77E8 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB 
+{
+	int32_t ___U3CPresentationOptionsU3Ek__BackingField;
+	String_t* ___U3CAndroidChannelIdU3Ek__BackingField;
+	String_t* ___U3CAndroidChannelNameU3Ek__BackingField;
+	String_t* ___U3CAndroidChannelDescriptionU3Ek__BackingField;
+	String_t* ___U3CAndroidSmallIconU3Ek__BackingField;
+};
+struct NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_pinvoke
+{
+	int32_t ___U3CPresentationOptionsU3Ek__BackingField;
+	char* ___U3CAndroidChannelIdU3Ek__BackingField;
+	char* ___U3CAndroidChannelNameU3Ek__BackingField;
+	char* ___U3CAndroidChannelDescriptionU3Ek__BackingField;
+	char* ___U3CAndroidSmallIconU3Ek__BackingField;
+};
+struct NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_com
+{
+	int32_t ___U3CPresentationOptionsU3Ek__BackingField;
+	Il2CppChar* ___U3CAndroidChannelIdU3Ek__BackingField;
+	Il2CppChar* ___U3CAndroidChannelNameU3Ek__BackingField;
+	Il2CppChar* ___U3CAndroidChannelDescriptionU3Ek__BackingField;
+	Il2CppChar* ___U3CAndroidSmallIconU3Ek__BackingField;
+};
+struct NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B 
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___U3CFireTimeU3Ek__BackingField;
+	int32_t ___U3CRepeatIntervalU3Ek__BackingField;
+};
+struct NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_pinvoke
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___U3CFireTimeU3Ek__BackingField;
+	int32_t ___U3CRepeatIntervalU3Ek__BackingField;
+};
+struct NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_com
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___U3CFireTimeU3Ek__BackingField;
+	int32_t ___U3CRepeatIntervalU3Ek__BackingField;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct iOSNotificationData_t57D24EBD788D6C71F203ACE14688358AFA08BDED 
+{
+	String_t* ___identifier;
+	String_t* ___title;
+	String_t* ___body;
+	int32_t ___badge;
+	String_t* ___subtitle;
+	String_t* ___categoryIdentifier;
+	String_t* ___threadIdentifier;
+	int32_t ___soundType;
+	float ___soundVolume;
+	String_t* ___soundName;
+	int32_t ___interruptionLevel;
+	double ___relevanceScore;
+	intptr_t ___userInfo;
+	intptr_t ___attachments;
+	int32_t ___triggerType;
+	TriggerData_t5B00176E3EB034DB9078E419981580696EB8D39E ___trigger;
+};
+struct iOSNotificationData_t57D24EBD788D6C71F203ACE14688358AFA08BDED_marshaled_pinvoke
+{
+	char* ___identifier;
+	char* ___title;
+	char* ___body;
+	int32_t ___badge;
+	char* ___subtitle;
+	char* ___categoryIdentifier;
+	char* ___threadIdentifier;
+	int32_t ___soundType;
+	float ___soundVolume;
+	char* ___soundName;
+	int32_t ___interruptionLevel;
+	double ___relevanceScore;
+	intptr_t ___userInfo;
+	intptr_t ___attachments;
+	int32_t ___triggerType;
+	TriggerData_t5B00176E3EB034DB9078E419981580696EB8D39E ___trigger;
+};
+struct iOSNotificationData_t57D24EBD788D6C71F203ACE14688358AFA08BDED_marshaled_com
+{
+	Il2CppChar* ___identifier;
+	Il2CppChar* ___title;
+	Il2CppChar* ___body;
+	int32_t ___badge;
+	Il2CppChar* ___subtitle;
+	Il2CppChar* ___categoryIdentifier;
+	Il2CppChar* ___threadIdentifier;
+	int32_t ___soundType;
+	float ___soundVolume;
+	Il2CppChar* ___soundName;
+	int32_t ___interruptionLevel;
+	double ___relevanceScore;
+	intptr_t ___userInfo;
+	intptr_t ___attachments;
+	int32_t ___triggerType;
+	TriggerData_t5B00176E3EB034DB9078E419981580696EB8D39E ___trigger;
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327  : public RuntimeObject
+{
+	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 ___U3CSoundVolumeU3Ek__BackingField;
+	List_1_tC74F654247ABF5958BE119A0484FED155A4FA129* ___U3CAttachmentsU3Ek__BackingField;
+	iOSNotificationData_t57D24EBD788D6C71F203ACE14688358AFA08BDED ___data;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___userInfo;
+};
+struct iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C 
+{
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CYearU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMonthU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CDayU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CHourU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMinuteU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CSecondU3Ek__BackingField;
+	Nullable_1_tCAA9C81C7497FAEBCEFBDE004DEE9250D0BE77E8 ___U3CWeekdayU3Ek__BackingField;
+	bool ___U3CUtcTimeU3Ek__BackingField;
+	bool ___U3CRepeatsU3Ek__BackingField;
+};
+struct iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C_marshaled_pinvoke
+{
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CYearU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMonthU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CDayU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CHourU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMinuteU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CSecondU3Ek__BackingField;
+	Nullable_1_tCAA9C81C7497FAEBCEFBDE004DEE9250D0BE77E8 ___U3CWeekdayU3Ek__BackingField;
+	int32_t ___U3CUtcTimeU3Ek__BackingField;
+	int32_t ___U3CRepeatsU3Ek__BackingField;
+};
+struct iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C_marshaled_com
+{
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CYearU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMonthU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CDayU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CHourU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMinuteU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CSecondU3Ek__BackingField;
+	Nullable_1_tCAA9C81C7497FAEBCEFBDE004DEE9250D0BE77E8 ___U3CWeekdayU3Ek__BackingField;
+	int32_t ___U3CUtcTimeU3Ek__BackingField;
+	int32_t ___U3CRepeatsU3Ek__BackingField;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
+{
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info;
+	RuntimeObject* ___shared_table_lock;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture;
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number;
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX;
+	bool ___IsTaiwanSku;
+};
+struct NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields
+{
+	bool ___s_Initialized;
+	NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB ___s_Args;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m14F273FB376DF00D727434CDCD28AB4EDCC14C3C_fshared_inline (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1_get_Value_mA083C4D9192050DC38513BDD9D364C5C68A3A675_fshared (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339* __this, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m4257D7FF23A495D1B204F20330FBDED58248E4CC_fshared (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) ;
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 Notification_get_Identifier_mD205C125B11FA2AD4600778983C4377EB659E518_inline (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) ;
+inline bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_get_HasValue_m14F273FB376DF00D727434CDCD28AB4EDCC14C3C_fshared_inline)(__this, method);
+}
+inline int32_t Nullable_1_get_Value_m0DF3B826A745419D26A168689AEB4BE6F8698ECA (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
+{
+	int32_t il2cppRetVal;
+	((  void (*) (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))Nullable_1_get_Value_mA083C4D9192050DC38513BDD9D364C5C68A3A675_fshared)((Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339*)__this, (Il2CppFullySharedGenericStruct*)&il2cppRetVal, method);
+	return il2cppRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m3B2730D9F5B0C1C57DCCC8B8DCFB8E5EC4E8979B (int32_t* __this, RuntimeObject* ___0_provider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotification_set_Identifier_mE3145BABCFC0000F3C9AB6AD49DE7D784570635D (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Notification_get_ShowInForeground_m3FFE85372A322308B4E10F72257DE24F311BEC87_inline (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotification_set_ShowInForeground_mB8363BB4B0C40234B565A24F6A979641DBA5A8D8 (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotification__ctor_m7CFB3CF88F34E88EDC2CA56EC15F3510B1AAD69B (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotification_set_Title_mAAB437F0A9964DB9ACC46E386CB158E554287832 (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* Notification_GetNotification_m829C0F70DDD8622929A65B314B524F89EE643E0C (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotification_set_Body_m5AE05A830B4B0D56C09DE9BEDC210C5F1316DB92 (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NotificationCenterArgs_get_AndroidChannelId_mA1FC550D6B980F31894B923CFC5DA5D8BE43827B_inline (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NotificationCenterArgs_get_PresentationOptions_m4F15A813F88DD0B4EB13CCFCF6CB017F480F569C_inline (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsPermissionRequest__ctor_mB4307A50DBC0565D7B25F5D82AAC41D9335E302C (NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E* __this, int32_t ___0_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotificationCenter_RemoveAllScheduledNotifications_m44068D9155DC22C114EE5C11CDEE34F747B3EE3F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotificationCenter_RemoveAllDeliveredNotifications_m853D9D2A75A28AEDDB7F5FD383C8E6FECB3B995F (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_set_FireTime_m67F90E150ACFE5C745DE43E0D5F6062DBA88F905_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_set_RepeatInterval_m8BE13C5AC8D1DCA5E6F91A1990CCADADA9A5AAB1_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Hour_m350B2AEB6ED8AAD80F0779C1FD37EEE13952A7F3 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+inline void Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703 (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339*, Il2CppFullySharedGenericStruct, const RuntimeMethod*))Nullable_1__ctor_m4257D7FF23A495D1B204F20330FBDED58248E4CC_fshared)((Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339*)__this, (Il2CppFullySharedGenericStruct)&___0_value, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Hour_m3322D5351F9E8EFC284E552E55BF145355F8CF60_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Minute_m73003491DA85D2C9951ECCF890D9BF6AFFB9E973 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Minute_mF59941F1A7D0B027AACDAB8445DAC99DAE9AEE82_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Second_mC860BA28DED65249BE9EA46E4898730C7828B3EA (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Second_m2347F668195B9C4773D4B0B3B297221FF8561F7D_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Kind_m83D45222D9386873333A178B9AB31AC2B2F2C993 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_UtcTime_m59C6E06208F57EA735F80A33A486EC98A05CFDB2_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NotificationDateTimeSchedule_get_RepeatInterval_m42CDA62639480D710ECD659A011DD9CF120F92DA_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Year_m4990382171B1A2F2BA9E8EF70EE3BA3780A7C580_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Month_m899C6602DE8198990B2CAF5EBC04CC67764E3DA2 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Month_m6A0717CC00C5710782F55B6E8F235A8CCA783FCC_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Day_m872DBCA4C79955EC1E27EB68746B6C2F6A183B28 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Day_m8FB648F44C32FF032448CA475F56AF12FC7E760B_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Repeats_m61C090AF21271FBAEB5E30E8A37F349BE822AE07_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSNotification_set_Trigger_m87A4F53B6CB98FE11AD98A5952F0CB2E95BCF52F (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_Unity_Notifications_NotificationSchedule_Schedule_m4057AFF3640FACB53EDAE912C9908F949F4F348C (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327** ___0_notification, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50 (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthorizationRequest__ctor_mA2D61FE2CE62D08FAFF0C98BE07CDDB3AA61C57E (AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6* __this, int32_t ___0_authorizationOption, bool ___1_registerForRemoteNotifications, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AuthorizationRequest_get_IsFinished_mE33F31C34C68CF41E031401ED94107F635611786 (AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshal_pinvoke(const Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4& unmarshaled, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___notificationException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___notificationException, NULL);
+}
+IL2CPP_EXTERN_C void Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshal_pinvoke_back(const Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_pinvoke& marshaled, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___notificationException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___notificationException, NULL);
+}
+IL2CPP_EXTERN_C void Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshal_pinvoke_cleanup(Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshal_com(const Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4& unmarshaled, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___notificationException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___notificationException, NULL);
+}
+IL2CPP_EXTERN_C void Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshal_com_back(const Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_com& marshaled, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___notificationException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4____notification_FieldInfo_var, Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___notificationException, NULL);
+}
+IL2CPP_EXTERN_C void Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshal_com_cleanup(Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 71714
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* Notification_op_Explicit_mAF6A7F8A73CD311FA8C8A1F2BFC71366682A1C81 (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4 ___0_n, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_Value_m0DF3B826A745419D26A168689AEB4BE6F8698ECA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticInit);
+	//<source_info:<no-source>:1>
+	iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* V_0 = NULL;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	{
+		Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4 L_0 = ___0_n;
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_1 = L_0.___notification;
+		V_0 = L_1;
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327*)NULL;
+	}
+
+IL_000c:
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_3;
+		L_3 = Notification_get_Identifier_mD205C125B11FA2AD4600778983C4377EB659E518_inline((&___0_n), NULL);
+		V_1 = L_3;
+		bool L_4;
+		L_4 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_1), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
+		if (!L_4)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_5 = V_0;
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_6;
+		L_6 = Notification_get_Identifier_mD205C125B11FA2AD4600778983C4377EB659E518_inline((&___0_n), NULL);
+		V_1 = L_6;
+		int32_t L_7;
+		L_7 = Nullable_1_get_Value_m0DF3B826A745419D26A168689AEB4BE6F8698ECA((&V_1), Nullable_1_get_Value_m0DF3B826A745419D26A168689AEB4BE6F8698ECA_RuntimeMethod_var);
+		V_2 = L_7;
+		CHECKED_LOCAL_INIT(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticInit,(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_8;
+		L_8 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		String_t* L_9;
+		L_9 = Int32_ToString_m3B2730D9F5B0C1C57DCCC8B8DCFB8E5EC4E8979B((&V_2), L_8, NULL);
+		NullCheck(L_5);
+		iOSNotification_set_Identifier_mE3145BABCFC0000F3C9AB6AD49DE7D784570635D(L_5, L_9, NULL);
+	}
+
+IL_003f:
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_10 = V_0;
+		bool L_11;
+		L_11 = Notification_get_ShowInForeground_m3FFE85372A322308B4E10F72257DE24F311BEC87_inline((&___0_n), NULL);
+		NullCheck(L_10);
+		iOSNotification_set_ShowInForeground_mB8363BB4B0C40234B565A24F6A979641DBA5A8D8(L_10, L_11, NULL);
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 71715
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* Notification_GetNotification_m829C0F70DDD8622929A65B314B524F89EE643E0C (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_0 = __this->___notification;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_1 = (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327*)il2cpp_codegen_object_new(iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327_il2cpp_TypeInfo_var);
+		iOSNotification__ctor_m7CFB3CF88F34E88EDC2CA56EC15F3510B1AAD69B(L_1, NULL);
+		__this->___notification = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___notification), (void*)L_1);
+	}
+
+IL_0013:
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_2 = __this->___notification;
+		return L_2;
+	}
+}
+// Method Definition Index: 71716
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 Notification_get_Identifier_mD205C125B11FA2AD4600778983C4377EB659E518 (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = __this->___U3CIdentifierU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71717
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_set_Title_m116C7AC9C40C4CD0EB48DD5A1BC70CFB4E6033F8 (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_0 = __this->___notification;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_1 = (iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327*)il2cpp_codegen_object_new(iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327_il2cpp_TypeInfo_var);
+		iOSNotification__ctor_m7CFB3CF88F34E88EDC2CA56EC15F3510B1AAD69B(L_1, NULL);
+		__this->___notification = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___notification), (void*)L_1);
+	}
+
+IL_0013:
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_2 = __this->___notification;
+		String_t* L_3 = ___0_value;
+		NullCheck(L_2);
+		iOSNotification_set_Title_mAAB437F0A9964DB9ACC46E386CB158E554287832(L_2, L_3, NULL);
+		return;
+	}
+}
+// Method Definition Index: 71718
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notification_set_Text_m98100841D2E7B31F90C022B8D69C088995A23D82 (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_0;
+		L_0 = Notification_GetNotification_m829C0F70DDD8622929A65B314B524F89EE643E0C(__this, NULL);
+		String_t* L_1 = ___0_value;
+		NullCheck(L_0);
+		iOSNotification_set_Body_m5AE05A830B4B0D56C09DE9BEDC210C5F1316DB92(L_0, L_1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 71719
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Notification_get_ShowInForeground_m3FFE85372A322308B4E10F72257DE24F311BEC87 (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = __this->___U3CShowInForegroundU3Ek__BackingField;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshal_pinvoke(const NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB& unmarshaled, NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CPresentationOptionsU3Ek__BackingField = unmarshaled.___U3CPresentationOptionsU3Ek__BackingField;
+	marshaled.___U3CAndroidChannelIdU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CAndroidChannelIdU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelNameU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CAndroidChannelNameU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField);
+	marshaled.___U3CAndroidSmallIconU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CAndroidSmallIconU3Ek__BackingField);
+}
+IL2CPP_EXTERN_C void NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshal_pinvoke_back(const NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_pinvoke& marshaled, NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB& unmarshaled)
+{
+	int32_t unmarshaledU3CPresentationOptionsU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CPresentationOptionsU3Ek__BackingField_temp_0 = marshaled.___U3CPresentationOptionsU3Ek__BackingField;
+	unmarshaled.___U3CPresentationOptionsU3Ek__BackingField = unmarshaledU3CPresentationOptionsU3Ek__BackingField_temp_0;
+	unmarshaled.___U3CAndroidChannelIdU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidChannelIdU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidChannelIdU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidChannelIdU3Ek__BackingField));
+	unmarshaled.___U3CAndroidChannelNameU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidChannelNameU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidChannelNameU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidChannelNameU3Ek__BackingField));
+	unmarshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField));
+	unmarshaled.___U3CAndroidSmallIconU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidSmallIconU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidSmallIconU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CAndroidSmallIconU3Ek__BackingField));
+}
+IL2CPP_EXTERN_C void NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshal_pinvoke_cleanup(NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___U3CAndroidChannelIdU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelIdU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___U3CAndroidChannelNameU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelNameU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___U3CAndroidSmallIconU3Ek__BackingField);
+	marshaled.___U3CAndroidSmallIconU3Ek__BackingField = NULL;
+}
+IL2CPP_EXTERN_C void NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshal_com(const NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB& unmarshaled, NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_com& marshaled)
+{
+	marshaled.___U3CPresentationOptionsU3Ek__BackingField = unmarshaled.___U3CPresentationOptionsU3Ek__BackingField;
+	marshaled.___U3CAndroidChannelIdU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CAndroidChannelIdU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelNameU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CAndroidChannelNameU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField);
+	marshaled.___U3CAndroidSmallIconU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CAndroidSmallIconU3Ek__BackingField);
+}
+IL2CPP_EXTERN_C void NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshal_com_back(const NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_com& marshaled, NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB& unmarshaled)
+{
+	int32_t unmarshaledU3CPresentationOptionsU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CPresentationOptionsU3Ek__BackingField_temp_0 = marshaled.___U3CPresentationOptionsU3Ek__BackingField;
+	unmarshaled.___U3CPresentationOptionsU3Ek__BackingField = unmarshaledU3CPresentationOptionsU3Ek__BackingField_temp_0;
+	unmarshaled.___U3CAndroidChannelIdU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidChannelIdU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidChannelIdU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidChannelIdU3Ek__BackingField));
+	unmarshaled.___U3CAndroidChannelNameU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidChannelNameU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidChannelNameU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidChannelNameU3Ek__BackingField));
+	unmarshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField));
+	unmarshaled.___U3CAndroidSmallIconU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidSmallIconU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CAndroidSmallIconU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CAndroidSmallIconU3Ek__BackingField));
+}
+IL2CPP_EXTERN_C void NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshal_com_cleanup(NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CAndroidChannelIdU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelIdU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CAndroidChannelNameU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelNameU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField);
+	marshaled.___U3CAndroidChannelDescriptionU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CAndroidSmallIconU3Ek__BackingField);
+	marshaled.___U3CAndroidSmallIconU3Ek__BackingField = NULL;
+}
+// Method Definition Index: 71720
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NotificationCenterArgs_get_PresentationOptions_m4F15A813F88DD0B4EB13CCFCF6CB017F480F569C (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->___U3CPresentationOptionsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71721
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenterArgs_set_PresentationOptions_m9B988CEEDA3D8042015055DDD5F598DB90E30654 (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CPresentationOptionsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71722
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NotificationCenterArgs_get_AndroidChannelId_mA1FC550D6B980F31894B923CFC5DA5D8BE43827B (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		String_t* L_0 = __this->___U3CAndroidChannelIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71723
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenterArgs_set_AndroidChannelId_m7A33F81A08011E0E4DE53B723882ACBEBA4D84A1 (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CAndroidChannelIdU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAndroidChannelIdU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 71724
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenterArgs_set_AndroidChannelName_mA757ED49934227FC8DFFD20DCB0A6968FB458D7E (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CAndroidChannelNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAndroidChannelNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 71725
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenterArgs_set_AndroidChannelDescription_mC7F3C61D2D3A79822908B869F5A979BEF4E36C54 (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CAndroidChannelDescriptionU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAndroidChannelDescriptionU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 71726
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenter_Initialize_m935122C970A079622F8033416F359420E84F7E5C (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = ((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Initialized;
+		if (!L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0008:
+	{
+		String_t* L_1;
+		L_1 = NotificationCenterArgs_get_AndroidChannelId_mA1FC550D6B980F31894B923CFC5DA5D8BE43827B_inline((&___0_args), NULL);
+		bool L_2;
+		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8174925EDDA428592DBDC5DFBE6B88EAE1AD9E8A)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotificationCenter_Initialize_m935122C970A079622F8033416F359420E84F7E5C_RuntimeMethod_var)));
+	}
+
+IL_0021:
+	{
+		NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB L_4 = ___0_args;
+		((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args = L_4;
+		Il2CppCodeGenWriteBarrier((void**)&(((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args))->___U3CAndroidChannelIdU3Ek__BackingField), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args))->___U3CAndroidChannelNameU3Ek__BackingField), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args))->___U3CAndroidChannelDescriptionU3Ek__BackingField), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args))->___U3CAndroidSmallIconU3Ek__BackingField), (void*)NULL);
+		#endif
+		((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Initialized = (bool)1;
+		return;
+	}
+}
+// Method Definition Index: 71727
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E* NotificationCenter_RequestPermission_mE65610880F12829BBE0C379C2A9449246CE950D4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0(NULL);
+		V_0 = 0;
+		int32_t L_0;
+		L_0 = NotificationCenterArgs_get_PresentationOptions_m4F15A813F88DD0B4EB13CCFCF6CB017F480F569C_inline((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args), NULL);
+		if (!((int32_t)((int32_t)L_0&1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_1 = V_0;
+		V_0 = ((int32_t)(L_1|4));
+	}
+
+IL_0019:
+	{
+		int32_t L_2;
+		L_2 = NotificationCenterArgs_get_PresentationOptions_m4F15A813F88DD0B4EB13CCFCF6CB017F480F569C_inline((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args), NULL);
+		if (!((int32_t)((int32_t)L_2&2)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		V_0 = ((int32_t)(L_3|1));
+	}
+
+IL_002b:
+	{
+		int32_t L_4;
+		L_4 = NotificationCenterArgs_get_PresentationOptions_m4F15A813F88DD0B4EB13CCFCF6CB017F480F569C_inline((&((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Args), NULL);
+		if (!((int32_t)((int32_t)L_4&4)))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)(L_5|2));
+	}
+
+IL_003d:
+	{
+		int32_t L_6 = V_0;
+		NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E* L_7 = (NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E*)il2cpp_codegen_object_new(NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E_il2cpp_TypeInfo_var);
+		NotificationsPermissionRequest__ctor_mB4307A50DBC0565D7B25F5D82AAC41D9335E302C(L_7, L_6, NULL);
+		return L_7;
+	}
+}
+// Method Definition Index: 71728
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = ((NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_StaticFields*)il2cpp_codegen_static_fields_for(NotificationCenter_t21859C0EFBFAAF21DB33B4184DC66DB7F179CA8D_il2cpp_TypeInfo_var))->___s_Initialized;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Exception_t* L_1 = (Exception_t*)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC6EEA3A428E9E20BA81B1255C72CFE9EBB4B13FB)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0_RuntimeMethod_var)));
+	}
+
+IL_0012:
+	{
+		return;
+	}
+}
+// Method Definition Index: 71731
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenter_CancelAllScheduledNotifications_m5A90420794DB5BD8102219B8C042F416FBFBB11F (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_StaticInit);
+	//<source_info:<no-source>:1>
+	{
+		NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0(NULL);
+		CHECKED_LOCAL_INIT(iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_StaticInit,(iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		iOSNotificationCenter_RemoveAllScheduledNotifications_m44068D9155DC22C114EE5C11CDEE34F747B3EE3F(NULL);
+		return;
+	}
+}
+// Method Definition Index: 71732
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationCenter_CancelAllDeliveredNotifications_mCB47DF034E29E8074D9AD1D298F04FFEC453B821 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_StaticInit);
+	//<source_info:<no-source>:1>
+	{
+		NotificationCenter_CheckInitialized_m732D2D0343C70AF0C9DF0324139A58FC1F769BD0(NULL);
+		CHECKED_LOCAL_INIT(iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_StaticInit,(iOSNotificationCenter_t74DF080370FA0C88E42962A44D1F9EC025B84E53_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		iOSNotificationCenter_RemoveAllDeliveredNotifications_m853D9D2A75A28AEDDB7F5FD383C8E6FECB3B995F(NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshal_pinvoke(const NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B& unmarshaled, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CFireTimeU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CFireTimeU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshal_pinvoke_back(const NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_pinvoke& marshaled, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CFireTimeU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CFireTimeU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshal_pinvoke_cleanup(NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshal_com(const NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B& unmarshaled, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CFireTimeU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CFireTimeU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshal_com_back(const NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_com& marshaled, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CFireTimeU3Ek__BackingFieldException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B____U3CFireTimeU3Ek__BackingField_FieldInfo_var, NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CFireTimeU3Ek__BackingFieldException, NULL);
+}
+IL2CPP_EXTERN_C void NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshal_com_cleanup(NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 71734
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8 (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CFireTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71735
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_set_FireTime_m67F90E150ACFE5C745DE43E0D5F6062DBA88F905 (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___0_value;
+		__this->___U3CFireTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71736
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NotificationDateTimeSchedule_get_RepeatInterval_m42CDA62639480D710ECD659A011DD9CF120F92DA (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->___U3CRepeatIntervalU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71737
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_set_RepeatInterval_m8BE13C5AC8D1DCA5E6F91A1990CCADADA9A5AAB1 (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CRepeatIntervalU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71738
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule__ctor_mAA5ABB297E8E8123AE0B74092F4DB96A65265790 (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_fireTime, int32_t ___1_repeatInterval, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___0_fireTime;
+		NotificationDateTimeSchedule_set_FireTime_m67F90E150ACFE5C745DE43E0D5F6062DBA88F905_inline(__this, L_0, NULL);
+		int32_t L_1 = ___1_repeatInterval;
+		NotificationDateTimeSchedule_set_RepeatInterval_m8BE13C5AC8D1DCA5E6F91A1990CCADADA9A5AAB1_inline(__this, L_1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 71739
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_Unity_Notifications_NotificationSchedule_Schedule_m4057AFF3640FACB53EDAE912C9908F949F4F348C (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327** ___0_notification, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticInit);
+	//<source_info:<no-source>:1>
+	iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		il2cpp_codegen_initobj((&V_1), sizeof(iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C));
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
+		L_0 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_0;
+		CHECKED_LOCAL_INIT(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticInit,(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_1;
+		L_1 = DateTime_get_Hour_m350B2AEB6ED8AAD80F0779C1FD37EEE13952A7F3((&V_2), NULL);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_2), L_1, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		iOSNotificationCalendarTrigger_set_Hour_m3322D5351F9E8EFC284E552E55BF145355F8CF60_inline((&V_1), L_2, NULL);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3;
+		L_3 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_3;
+		int32_t L_4;
+		L_4 = DateTime_get_Minute_m73003491DA85D2C9951ECCF890D9BF6AFFB9E973((&V_2), NULL);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_5), L_4, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		iOSNotificationCalendarTrigger_set_Minute_mF59941F1A7D0B027AACDAB8445DAC99DAE9AEE82_inline((&V_1), L_5, NULL);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
+		L_6 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_6;
+		int32_t L_7;
+		L_7 = DateTime_get_Second_mC860BA28DED65249BE9EA46E4898730C7828B3EA((&V_2), NULL);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_8), L_7, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		iOSNotificationCalendarTrigger_set_Second_m2347F668195B9C4773D4B0B3B297221FF8561F7D_inline((&V_1), L_8, NULL);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_9;
+		L_9 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_9;
+		int32_t L_10;
+		L_10 = DateTime_get_Kind_m83D45222D9386873333A178B9AB31AC2B2F2C993((&V_2), NULL);
+		iOSNotificationCalendarTrigger_set_UtcTime_m59C6E06208F57EA735F80A33A486EC98A05CFDB2_inline((&V_1), (bool)((((int32_t)L_10) == ((int32_t)1))? 1 : 0), NULL);
+		iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C L_11 = V_1;
+		V_0 = L_11;
+		int32_t L_12;
+		L_12 = NotificationDateTimeSchedule_get_RepeatInterval_m42CDA62639480D710ECD659A011DD9CF120F92DA_inline(__this, NULL);
+		V_3 = L_12;
+		int32_t L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		int32_t L_14 = V_3;
+		if ((((int32_t)L_14) == ((int32_t)1)))
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		goto IL_00eb;
+	}
+
+IL_0080:
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_15;
+		L_15 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_15;
+		CHECKED_LOCAL_INIT(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticInit,(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_16;
+		L_16 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_2), NULL);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_17), L_16, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		iOSNotificationCalendarTrigger_set_Year_m4990382171B1A2F2BA9E8EF70EE3BA3780A7C580_inline((&V_0), L_17, NULL);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_18;
+		L_18 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_18;
+		int32_t L_19;
+		L_19 = DateTime_get_Month_m899C6602DE8198990B2CAF5EBC04CC67764E3DA2((&V_2), NULL);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_20), L_19, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		iOSNotificationCalendarTrigger_set_Month_m6A0717CC00C5710782F55B6E8F235A8CCA783FCC_inline((&V_0), L_20, NULL);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_21;
+		L_21 = NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline(__this, NULL);
+		V_2 = L_21;
+		int32_t L_22;
+		L_22 = DateTime_get_Day_m872DBCA4C79955EC1E27EB68746B6C2F6A183B28((&V_2), NULL);
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_23), L_22, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		iOSNotificationCalendarTrigger_set_Day_m8FB648F44C32FF032448CA475F56AF12FC7E760B_inline((&V_0), L_23, NULL);
+		goto IL_0106;
+	}
+
+IL_00d0:
+	{
+		il2cpp_codegen_initobj((&V_4), sizeof(Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_24 = V_4;
+		iOSNotificationCalendarTrigger_set_Day_m8FB648F44C32FF032448CA475F56AF12FC7E760B_inline((&V_0), L_24, NULL);
+		iOSNotificationCalendarTrigger_set_Repeats_m61C090AF21271FBAEB5E30E8A37F349BE822AE07_inline((&V_0), (bool)1, NULL);
+		goto IL_0106;
+	}
+
+IL_00eb:
+	{
+		int32_t L_25;
+		L_25 = NotificationDateTimeSchedule_get_RepeatInterval_m42CDA62639480D710ECD659A011DD9CF120F92DA_inline(__this, NULL);
+		int32_t L_26 = L_25;
+		RuntimeObject* L_27 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotificationRepeatInterval_t43A4F46E9D010393D6ECE2EC5D126BC211BDC887_il2cpp_TypeInfo_var)), &L_26);
+		String_t* L_28;
+		L_28 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3A6FD1F02DCE0DE243EF41D1C454D5FBEA3CDCB5)), L_27, NULL);
+		Exception_t* L_29 = (Exception_t*)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_29, L_28, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotificationDateTimeSchedule_Unity_Notifications_NotificationSchedule_Schedule_m4057AFF3640FACB53EDAE912C9908F949F4F348C_RuntimeMethod_var)));
+	}
+
+IL_0106:
+	{
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327** L_30 = ___0_notification;
+		iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327* L_31 = *(L_30);
+		iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C L_32 = V_0;
+		iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C L_33 = L_32;
+		RuntimeObject* L_34 = Box(iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C_il2cpp_TypeInfo_var, &L_33);
+		NullCheck(L_31);
+		iOSNotification_set_Trigger_m87A4F53B6CB98FE11AD98A5952F0CB2E95BCF52F(L_31, (RuntimeObject*)L_34, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void NotificationDateTimeSchedule_Unity_Notifications_NotificationSchedule_Schedule_m4057AFF3640FACB53EDAE912C9908F949F4F348C_AdjustorThunk (RuntimeObject* __this, iOSNotification_t9191FC8C8CEEDE5C6B16D90A1CA0B85293C3B327** ___0_notification, const RuntimeMethod* method)
+{
+	NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B>(__this);
+	NotificationDateTimeSchedule_Unity_Notifications_NotificationSchedule_Schedule_m4057AFF3640FACB53EDAE912C9908F949F4F348C(_thisAdjusted, ___0_notification, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 71740
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsPermissionRequest__ctor_mB4307A50DBC0565D7B25F5D82AAC41D9335E302C (NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E* __this, int32_t ___0_options, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
+		int32_t L_0 = ___0_options;
+		AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6* L_1 = (AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6*)il2cpp_codegen_object_new(AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6_il2cpp_TypeInfo_var);
+		AuthorizationRequest__ctor_mA2D61FE2CE62D08FAFF0C98BE07CDDB3AA61C57E(L_1, L_0, (bool)0, NULL);
+		__this->___request = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___request), (void*)L_1);
+		return;
+	}
+}
+// Method Definition Index: 71741
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NotificationsPermissionRequest_get_keepWaiting_m3F7F15AB488B8B245BA0E90CCA645FB04BE3934D (NotificationsPermissionRequest_tCA32F3784A180777461E779848183F326F5D7C3E* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6* L_0 = __this->___request;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		AuthorizationRequest_t47AE642A3B68B0822738A9B2101E8F28D47A99A6* L_1 = __this->___request;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = AuthorizationRequest_get_IsFinished_mE33F31C34C68CF41E031401ED94107F635611786(L_1, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0017:
+	{
+		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 71716
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 Notification_get_Identifier_mD205C125B11FA2AD4600778983C4377EB659E518_inline (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = __this->___U3CIdentifierU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71719
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Notification_get_ShowInForeground_m3FFE85372A322308B4E10F72257DE24F311BEC87_inline (Notification_t3F3A18CDA6A6FE49BD5E887499B3168B3A89AAB4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = __this->___U3CShowInForegroundU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71722
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NotificationCenterArgs_get_AndroidChannelId_mA1FC550D6B980F31894B923CFC5DA5D8BE43827B_inline (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		String_t* L_0 = __this->___U3CAndroidChannelIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71720
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NotificationCenterArgs_get_PresentationOptions_m4F15A813F88DD0B4EB13CCFCF6CB017F480F569C_inline (NotificationCenterArgs_tA00AFEA0DE5E7956C1854A217AFB305056798DFB* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->___U3CPresentationOptionsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71735
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_set_FireTime_m67F90E150ACFE5C745DE43E0D5F6062DBA88F905_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___0_value;
+		__this->___U3CFireTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71737
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NotificationDateTimeSchedule_set_RepeatInterval_m8BE13C5AC8D1DCA5E6F91A1990CCADADA9A5AAB1_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CRepeatIntervalU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71734
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D NotificationDateTimeSchedule_get_FireTime_m73F0C65F23A9401139DF4BF7C99D566116CD6AD8_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CFireTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71032
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Hour_m3322D5351F9E8EFC284E552E55BF145355F8CF60_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = ___0_value;
+		__this->___U3CHourU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71034
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Minute_mF59941F1A7D0B027AACDAB8445DAC99DAE9AEE82_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = ___0_value;
+		__this->___U3CMinuteU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71036
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Second_m2347F668195B9C4773D4B0B3B297221FF8561F7D_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = ___0_value;
+		__this->___U3CSecondU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71039
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_UtcTime_m59C6E06208F57EA735F80A33A486EC98A05CFDB2_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = ___0_value;
+		__this->___U3CUtcTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71736
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NotificationDateTimeSchedule_get_RepeatInterval_m42CDA62639480D710ECD659A011DD9CF120F92DA_inline (NotificationDateTimeSchedule_t2A054D7E730844C186F6315AF4D6079A52E1263B* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->___U3CRepeatIntervalU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 71026
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Year_m4990382171B1A2F2BA9E8EF70EE3BA3780A7C580_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = ___0_value;
+		__this->___U3CYearU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71028
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Month_m6A0717CC00C5710782F55B6E8F235A8CCA783FCC_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = ___0_value;
+		__this->___U3CMonthU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71030
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Day_m8FB648F44C32FF032448CA475F56AF12FC7E760B_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = ___0_value;
+		__this->___U3CDayU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 71041
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void iOSNotificationCalendarTrigger_set_Repeats_m61C090AF21271FBAEB5E30E8A37F349BE822AE07_inline (iOSNotificationCalendarTrigger_tFBBE4331865F1CDB941E7B2B636906E5642C283C* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = ___0_value;
+		__this->___U3CRepeatsU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 2161
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m14F273FB376DF00D727434CDCD28AB4EDCC14C3C_fshared_inline (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339* __this, const RuntimeMethod* method) 
+{
+	CHECKED_LOCAL(classRgctxInit);
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = *(bool*)il2cpp_codegen_get_field_data_pointer(__this, il2cpp_rgctx_offset(CHECKED_LOCAL_INIT_PARAM(classRgctxInit,(il2cpp_codegen_method_rgctx(method)),il2cpp_codegen_initialized_method_rgctx,(method)), 3));
+		return L_0;
+	}
+}

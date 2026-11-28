@@ -1,0 +1,164 @@
+# iPhone sürümü: Unity'nin Windows'ta oluşturduğu Xcode projesini GitHub'ın ücretsiz Mac makinesinde derler,
+# imzalar ve TestFlight'a (App Store Connect) yükler. Mac ya da ücretli bulut derleme gerekmez.
+#
+# Nasıl tetiklenir: Tools/ios-gonder.ps1 Xcode projesini herkese açık derleme deposunun (stellaris-ios) "ios-build" dalına gönderir.
+# Gerekli depo sırları (Settings → Secrets and variables → Actions):
+#   ASC_KEY_ID      App Store Connect API anahtar kimliği (ör. ABC123DEFG)
+#   ASC_ISSUER_ID   Issuer ID (UUID)
+#   ASC_KEY_P8      İndirilen AuthKey_XXXX.p8 dosyasının içeriği (BEGIN/END satırları dahil)
+#   APPLE_TEAM_ID   Apple Developer ekip kimliği (10 karakter)
+# Ücretsiz kota: özel depoda ayda 2000 dakika; Mac dakikaları 10 kat sayılır (≈200 Mac dakikası, ayda 8-10 derleme).
+
+name: iOS → TestFlight
+
+on:
+  push:
+    branches: [ios-build]
+  workflow_dispatch:
+
+jobs:
+  testflight:
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parçaları birleştir, çalıştırma izinleri
+        working-directory: ios
+        run: |
+          if [ -f _split.txt ]; then
+            while IFS= read -r f || [ -n "$f" ]; do
+              f="${f%$'\r'}"; [ -z "$f" ] && continue
+              cat "$f".part* > "$f" && rm -f "$f".part*
+              echo "Birleştirildi: $f ($(du -h "$f" | cut -f1))"
+            done < _split.txt
+          fi
+          chmod +x *.sh 2>/dev/null || true
+          chmod -R +x Il2CppOutputProject/IL2CPP/build 2>/dev/null || true
+
+      - name: Xcode
+        run: xcodebuild -version
+
+      - name: API anahtarı
+        env:
+          KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p "$HOME/private_keys"
+          printf '%s\n' "$KEY_P8" > "$HOME/private_keys/AuthKey_${KEY_ID}.p8"
+          echo "KEY_PATH=$HOME/private_keys/AuthKey_${KEY_ID}.p8" >> "$GITHUB_ENV"
+
+      - name: Derleme numarası (her yükleme farklı olmalı)
+        working-directory: ios
+        run: |
+          BUILD=$((100 + ${{ github.run_number }}))
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $BUILD" Info.plist
+          echo "Derleme numarası: $BUILD"
+
+      - name: CocoaPods önbelleği
+        uses: actions/cache@v4
+        with:
+          path: |
+            ios/Pods
+            ~/Library/Caches/CocoaPods
+          key: pods-${{ hashFiles('ios/Podfile') }}
+
+      - name: CocoaPods (varsa)
+        working-directory: ios
+        run: |
+          if [ -f Podfile ]; then pod install || pod install --repo-update; fi
+
+      # Derleme önbelleği: Unity her seferinde C++ kodunu yeniden üretir ama değişmeyen dosyalar aynıdır;
+      # ccache bunların derlenmiş hâlini saklar, sonraki derlemelerde yalnızca değişenler derlenir.
+      - name: Derleme önbelleği (ccache)
+        uses: actions/cache@v4
+        with:
+          path: ~/.ccache
+          key: ccache-${{ github.run_id }}
+          restore-keys: ccache-
+
+      - name: ccache kur
+        run: |
+          brew install ccache > /dev/null
+          mkdir -p "$HOME/ccbin"
+          for t in clang clang++; do
+            printf '#!/bin/sh\nexec ccache "%s" "$@"\n' "$(xcrun -f $t)" > "$HOME/ccbin/$t"
+            chmod +x "$HOME/ccbin/$t"
+          done
+          {
+            echo "CCACHE_DIR=$HOME/.ccache"
+            echo "CCACHE_MAXSIZE=3G"
+            echo "CCACHE_DEPEND=true"
+            echo "CCACHE_FILECLONE=true"
+            echo "CCACHE_SLOPPINESS=clang_index_store,file_stat_matches,include_file_ctime,include_file_mtime,ivfsoverlay,pch_defines,modules,system_headers,time_macros"
+          } >> "$GITHUB_ENV"
+          ccache -z
+
+      # Arşiv imzasız alınır (geliştirme imzası kayıtlı iPhone ister); App Store dağıtım imzası
+      # bir sonraki adımda API anahtarıyla Apple'dan alınıp atılır.
+      - name: Arşivle
+        working-directory: ios
+        run: |
+          set -o pipefail
+          if [ -d Unity-iPhone.xcworkspace ]; then SRC=(-workspace Unity-iPhone.xcworkspace); else SRC=(-project Unity-iPhone.xcodeproj); fi
+          if ! xcodebuild "${SRC[@]}" -scheme Unity-iPhone -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath "$RUNNER_TEMP/Stellaris.xcarchive" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$KEY_PATH" -authenticationKeyID "$KEY_ID" -authenticationKeyIssuerID "$ISSUER_ID" \
+            DEVELOPMENT_TEAM="$TEAM_ID" CODE_SIGN_STYLE=Automatic \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            CC="$HOME/ccbin/clang" CXX="$HOME/ccbin/clang++" LD="$(xcrun -f clang)" LDPLUSPLUS="$(xcrun -f clang++)" \
+            COMPILER_INDEX_STORE_ENABLE=NO DEBUG_INFORMATION_FORMAT=dwarf \
+            archive > "$RUNNER_TEMP/archive.log" 2>&1; then
+            echo "::group::Son 120 satır"; tail -n 120 "$RUNNER_TEMP/archive.log"; echo "::endgroup::"
+            echo "===== HATALAR ====="
+            grep -E "error:|error -|\*\* ARCHIVE FAILED|Signing|provisioning|No profiles|Code Signing" "$RUNNER_TEMP/archive.log" | sort -u | head -n 60
+            exit 1
+          fi
+          tail -n 20 "$RUNNER_TEMP/archive.log"
+          echo "===== ccache ====="; ccache -s
+
+      # Arşiv imzasız alındığı için uygulamada yetki (entitlement) kaydı yok; dışa aktarma imzası yetkileri
+      # mevcut imzadan okur. Game Center + iCloud anahtar-değer deposu yetkilerini geçici (ad-hoc) imzayla
+      # uygulamaya işle; ardından dışa aktarma bunları dağıtım imzasına taşır.
+      - name: Yetkileri işle (Game Center, iCloud)
+        run: |
+          APP=$(ls -d "$RUNNER_TEMP/Stellaris.xcarchive/Products/Applications/"*.app | head -n 1)
+          cat > "$RUNNER_TEMP/app.entitlements" <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>com.apple.developer.game-center</key><true/>
+            <key>com.apple.developer.icloud-container-identifiers</key><array/>
+            <key>com.apple.developer.ubiquity-kvstore-identifier</key><string>${TEAM_ID}.com.stellaris.oyun</string>
+          </dict></plist>
+          EOF
+          # İç çerçeveleri önce yetkisiz imzala (codesign alt bileşen imzası ister), sonra uygulamayı yetkilerle
+          find "$APP/Frameworks" -maxdepth 1 \( -name "*.framework" -o -name "*.dylib" \) -print0 2>/dev/null | while IFS= read -r -d '' f; do
+            codesign --force --sign - --timestamp=none "$f"
+          done
+          codesign --force --sign - --timestamp=none --entitlements "$RUNNER_TEMP/app.entitlements" "$APP"
+          echo "===== Uygulama yetkileri ====="
+          codesign -d --entitlements :- "$APP"
+
+      - name: App Store Connect'e yükle
+        run: |
+          cat > "$RUNNER_TEMP/ExportOptions.plist" <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>teamID</key><string>${TEAM_ID}</string>
+            <key>signingStyle</key><string>automatic</string>
+            <key>uploadSymbols</key><false/>
+          </dict></plist>
+          EOF
+          xcodebuild -exportArchive -archivePath "$RUNNER_TEMP/Stellaris.xcarchive" \
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist" -exportPath "$RUNNER_TEMP/export" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$KEY_PATH" -authenticationKeyID "$KEY_ID" -authenticationKeyIssuerID "$ISSUER_ID"
+          echo "Yüklendi: birkaç dakika içinde App Store Connect → TestFlight'ta görünür."
